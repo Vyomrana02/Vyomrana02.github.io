@@ -17,10 +17,16 @@ export const About = () => {
           className="flex max-w-2xl flex-col gap-6 text-xl md:text-center sm:text-lg"
         >
           <p>
-            👋 Hi there! I'm Vyom a passionate web developer.
-            In my portfolio, you'll find a diverse range of projects showcasing my expertise in various technologies.
-            I specialize in developing web applications using the MERN stack, where I leverage MongoDB, Express.js, React, and Node.js to build efficient and scalable solutions.</p>
-          <p>   🌐 Additionally, I have experience in crafting robust applications using Java, Python, C#, and .NET Core. Whether it's creating dynamic web interfaces, implementing backend logic, or optimizing performance, I bring a wealth of knowledge and experience to every project I undertake.
+            &quot;👋 Hi there! I&apos;m Vyom a passionate web developer.
+            In my portfolio, you'll find a diverse range of projects
+            showcasing my expertise in various technologies.
+            I specialize in developing web applications using the MERN stack,
+            where I leverage MongoDB, Express.js, React, and Node.js to build
+            efficient and scalable solutions.&quot;</p>
+          <p>&quot;🌐 Additionally, I have experience in crafting robust applications
+            using Java, Python, C#, and .NET Core. Whether it's creating dynamic web interfaces,
+            implementing backend logic, or optimizing performance, I bring a wealth of knowledge
+            and experience to every project I undertake.&quot;
           </p>
 
           <MotionDiv className="flex justify-start md:justify-center">
