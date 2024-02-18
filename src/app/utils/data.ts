@@ -7,13 +7,13 @@ export const navigationLinks = [
 ]
 
 export type projectType = {
-  name: string
-  repo: string
-  isDeploy:boolean
-  url: string
-  image: string
-  description: string
-  tags: string[]
+  name: string,
+  repo: string,
+  isDeploy:boolean,
+  url: string,
+  image: string,
+  description: string,
+  tags: string[],
 }
 
 export const projectsData: projectType[] = [
