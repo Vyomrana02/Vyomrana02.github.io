@@ -14,7 +14,7 @@ export const Contact = () => {
       >
         <p className="max-w-2xl text-center text-lg">
           Don&apos;t hesitate to reach out if you have any questions or simply 
-             want to drop a friendly hello via email. I&apos;m always happy to 
+           want to drop a friendly hello via email. I&apos;m always happy to 
               connect!
         </p>
         <MotionDiv
