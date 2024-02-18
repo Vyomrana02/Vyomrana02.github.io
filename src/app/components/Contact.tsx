@@ -13,9 +13,9 @@ export const Contact = () => {
         className="flex flex-col items-center gap-6"
       >
         <p className="max-w-2xl text-center text-lg">
-          &quot;Don&apos;t hesitate to reach out if you have any questions or simply 
-           want to drop a friendly hello via email. I&apos;m always happy to 
-              connect!&quot;
+          &quot;Don&apos;t hesitate to reach out if you have any questions or 
+          simply want to drop a friendly hello via email. I&apos;m always happy 
+          to connect!&quot;
         </p>
         <MotionDiv
           initial={{ opacity: 0, x: 40 }}
