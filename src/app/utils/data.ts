@@ -3,6 +3,7 @@ export const navigationLinks = [
   { label: 'About', path: '#about' },
   { label: 'Projects', path: '#projects' },
   { label: 'Skills', path: '#skills' },
+  { label: 'Experience', path: '#experience' },
   { label: 'Contact', path: '#contact' }
 ]
 
@@ -29,16 +30,15 @@ export const projectsData: projectType[] = [
     tags: ['React', 'NodeJS', 'MongoDB', 'ExpressJS', 'JWT', 'Razorpay-API','NodeMailer']
   },  
   {
-    name: 'The Book Binge',
-    repo: 'https://github.com/Vyomrana02/BOOK-MANAGEMENT-USING-REACT-AND-C--WEBAPI/tree/main',
+    name: 'Virtual Mouse with Bot',
+    repo: 'https://github.com/Vyomrana02/Virtual_Mouse',
     isDeploy: false,
     url: '',
     image:
-      '/Book-store.png',
-    description: 'Books buying and selling Website.',
-    tags: ['ReactJS', '.Net Core', 'Web API', 'Bootstrap']
+      '/Virtual_Mouse.png',
+    description: 'Controlling Mouse using camera and hand movement',
+    tags: ['Python', 'OpenCV', 'Mediapipe']
   },
-  
   {
     name: 'Spring Shop',
     repo: 'https://github.com/Vyomrana02/spring-ecommerce',
@@ -50,14 +50,14 @@ export const projectsData: projectType[] = [
     tags: ['Java', 'Spring-boot', 'React']
   },
   {
-    name: 'Virtual Mouse with Bot',
-    repo: 'https://github.com/Vyomrana02/Virtual_Mouse',
+    name: 'The Book Binge',
+    repo: 'https://github.com/Vyomrana02/BOOK-MANAGEMENT-USING-REACT-AND-C--WEBAPI/tree/main',
     isDeploy: false,
     url: '',
     image:
-      '/Virtual_Mouse.png',
-    description: 'Controlling Mouse using camera and hand movement',
-    tags: ['Python', 'OpenCV', 'Mediapipe']
+      '/Book-store.png',
+    description: 'Books buying and selling Website.',
+    tags: ['ReactJS', '.Net Core', 'Web API', 'Bootstrap']
   },
   {
     name: 'Railway Reservation System',
@@ -153,23 +153,55 @@ export const projectsData: projectType[] = [
   // },
   
 ]
-
 export const skillsData = [
+  // Data Engineering & Cloud
   {
-    img: 'html5/html5-original.svg',
-    name: 'HTML'
+    img: 'apache/apache-original.svg',
+    name: 'Apache Spark'
   },
   {
-    img: 'css3/css3-original.svg',
-    name: 'CSS'
+    img: 'python/python-original.svg',
+    name: 'Python'
   },
+  {
+    img: 'scala/scala-original.svg',
+    name: 'Scala'
+  },
+  {
+    img: 'amazonwebservices/amazonwebservices-original-wordmark.svg',
+    name: 'AWS'
+  },
+  {
+    img: 'mysql/mysql-original.svg',
+    name: 'SQL'
+  },
+
+  // Java & Backend Development
+  {
+    img: 'java/java-original.svg',
+    name: 'Java'
+  },
+  {
+    img: 'spring/spring-original.svg',
+    name: 'Spring'
+  },
+  {
+    img: 'hibernate/hibernate-original.svg',
+    name: 'Hibernate'
+  },
+  {
+    img: 'dot-net/dot-net-original.svg',
+    name: '.Net'
+  },
+  {
+    img: 'dotnetcore/dotnetcore-original.svg',
+    name: '.Net Core'
+  },
+
+  // MERN Stack
   {
     img: 'javascript/javascript-original.svg',
     name: 'JavaScript'
-  },
-  {
-    img: 'sass/sass-original.svg',
-    name: 'Sass'
   },
   {
     img: 'typescript/typescript-original.svg',
@@ -180,40 +212,8 @@ export const skillsData = [
     name: 'React'
   },
   {
-    img: 'java/java-original.svg',
-    name: 'JAVA'
-  },
-  {
-    img: 'tailwindcss/tailwindcss-original.svg',
-    name: 'Tailwindcss'
-  },
-  {
-    img: 'bootstrap/bootstrap-original.svg',
-    name: 'Bootstrap'
-  },
-  {
     img: 'nextjs/nextjs-original.svg',
-    name: 'Nextjs'
-  },
-  {
-    img: 'php/php-original.svg',
-    name: 'PHP'
-  },
-  {
-    img: 'cplusplus/cplusplus-original.svg',
-    name: 'C++'
-  },
-  {
-    img: 'spring/spring-original.svg',
-    name: 'Spring'
-  },
-  {
-    img: 'dot-net/dot-net-original.svg',
-    name: '.Net'
-  },
-  {
-    img: 'dotnetcore/dotnetcore-original.svg',
-    name: '.Net Core'
+    name: 'Next.js'
   },
   {
     img: 'nodejs/nodejs-original.svg',
@@ -228,9 +228,33 @@ export const skillsData = [
     name: 'Django'
   },
   {
-    img: 'hibernate/hibernate-original.svg',
-    name: 'Hibernate'
-  },  
+    img: 'php/php-original.svg',
+    name: 'PHP'
+  },
+
+  // Frontend & Styling
+  {
+    img: 'html5/html5-original.svg',
+    name: 'HTML'
+  },
+  {
+    img: 'css3/css3-original.svg',
+    name: 'CSS'
+  },
+  {
+    img: 'sass/sass-original.svg',
+    name: 'Sass'
+  },
+  {
+    img: 'tailwindcss/tailwindcss-original.svg',
+    name: 'TailwindCSS'
+  },
+  {
+    img: 'bootstrap/bootstrap-original.svg',
+    name: 'Bootstrap'
+  },
+
+  // Databases
   {
     img: 'mysql/mysql-original.svg',
     name: 'MySQL'
@@ -244,20 +268,22 @@ export const skillsData = [
     name: 'MongoDB'
   },
   {
-    img: 'git/git-original.svg',
-    name: 'GIT'
-  },
-  {
-    img: 'github/github-original.svg',
-    name: 'Github'
-  },
-  {
-    img: 'postman/postman-original.svg',
-    name: 'Postman'
-  },
-  {
     img: 'cassandra/cassandra-original.svg',
     name: 'Cassandra'
   },
 
-]
+  // Tools & Version Control
+  {
+    img: 'git/git-original.svg',
+    name: 'Git'
+  },
+  {
+    img: 'github/github-original.svg',
+    name: 'GitHub'
+  },
+  {
+    img: 'postman/postman-original.svg',
+    name: 'Postman'
+  }
+];
+

@@ -28,7 +28,7 @@ export const Hero = () => {
             }}
             className="text-center text-4xl sm:text-3xl"
           >
-            Aspiring Software Developer{' '}
+            Crafting Scalable Data Solutions{' '}
             {/* <span className="font-bold text-target">Front-end</span> */}
           </MotionP>
           <MotionDiv

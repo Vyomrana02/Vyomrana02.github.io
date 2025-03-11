@@ -16,19 +16,20 @@ export const About = () => {
           transition={{ delay: 0.5, duration: 0.3 }}
           className="flex max-w-2xl flex-col gap-6 text-xl md:text-center sm:text-lg"
         >
-          <p>
-            &quot;👋 Hi there! I&apos;m Vyom a passionate web developer.In my
-            portfolio, you&apos;ll find a diverse range of projects showcasing
-            my expertise in various technologies.I specialize in developing web
-            applications using the MERN stack,where I leverage MongoDB,
-            Express.js, React, and Node.js to build efficient and scalable
-            solutions.&quot;</p>
-          <p>&quot;🌐 Additionally, I have experience in crafting robust
-            applications using Java, Python, C#, and .NET Core. Whether 
-            it&apos;s creating dynamic web interfaces,implementing backend 
-            logic, or optimizing performance, I bring a wealth of knowledge and
-            experience to every project I undertake.&quot;
-          </p>
+         <p>
+          &quot;🚀 Hey there! I&apos;m Vyom, a passionate web developer who loves turning ideas into reality! 
+          In my portfolio, you&apos;ll find a variety of projects showcasing my expertise in modern web technologies. 
+          💻 I specialize in crafting dynamic web applications using the Java Stack & MERN stack, harnessing the power of 
+          MongoDB, Express.js, React, and Node.js to build fast, scalable, and efficient solutions! 🎯&quot;
+        </p>
+
+        <p>
+          🌍 Beyond web development, I&apos;m deeply into Data Engineering and backend magic! 🔥 With Java & Spring Boot, I design 
+          high-performance microservices and scalable ETL pipelines. ⚙️ I optimize data processing with Apache Spark, ensuring 
+          fault-tolerant and efficient systems. Whether it's building APIs, integrating real-time data streams, or architecting 
+          distributed systems, I&apos;m all about creating powerful, data-driven applications! 🚀📊
+        </p>
+
 
           <MotionDiv className="flex justify-start md:justify-center">
             <Link
