@@ -2,13 +2,12 @@
 
 ![](/public/screenshot.png)
 
-## 📄 Descrição
+## 📄 Description
+Hello! Welcome to my portfolio. Here, I share information about myself, my projects, and my web development skills. Using modern technologies, this project also serves as a demonstration of my technical abilities.
 
-Olá! Bem-vindo ao meu portfólio. Aqui é onde compartilho informações sobre mim, projetos e habilidades relacionadas ao desenvolvimento web. Utilizando tecnologias modernas, este projeto também é uma demonstração das minhas habilidades técnicas.
+[Access the website]()[https://vyomrana02.github.io/]
 
-[Clique para acessar o projeto no ar](https://grazziotti-portfolio.vercel.app/)
-
-## 🛠 Tecnologias Utilizadas
+## 🛠 Tecnologies Utilized
 
 - [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -23,21 +22,21 @@ Olá! Bem-vindo ao meu portfólio. Aqui é onde compartilho informações sobre 
 - [Commitizen](https://github.com/commitizen/cz-cli)
 - [Husky](https://github.com/typicode/husky)
 
-## 🚀 Como Executar
+## 🚀 Clone Repo
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/grazziotti/portfolio
+$ git clone [(https://github.com/Vyomrana02/Vyomrana02.github.io.git)]
 
-# Entre no repositório clonado e instale as  dependências
+# Run below command to install the dependency
 $ npm install
 
-# Execute o projeto
+# Execute the project
 $ npm run dev
 ```
 
 ## 👤 Autor
 
-<img style="border-radius: 50px" alt="Daniel Grazziotti" title="Daniel Grazziotti" src="https://avatars.githubusercontent.com/grazziotti" height="100" width="100" />
+<img style="border-radius: 50px" alt="Vyom Rana" title="Vyom Rana" src="https://avatars.githubusercontent.com/Vyomrana02" height="100" width="100" />
 
-- [Linkedin](https://linkedin.com/in/daniel-grazziotti/)
+- [Linkedin](https://linkedin.com/in/vyomrana/)
