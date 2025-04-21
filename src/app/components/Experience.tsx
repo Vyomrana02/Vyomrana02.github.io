@@ -32,7 +32,7 @@ export const Experience = () => {
           <div>
             <div className="flex justify-between items-center">
               <h3 className="text-3xl font-bold text-blue-500">Calix</h3>
-              <p className="text-gray-400 text-right">Apprentice Data Engineer</p>
+              <p className="text-gray-400 text-right">Associate Software Engineer</p>
             </div>
             <p className="text-gray-400">May 2024 - Present</p>
             <ul className="mt-2 list-disc list-inside space-y-2">
